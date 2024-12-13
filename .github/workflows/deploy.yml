@@ -20,4 +20,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.MY_TOKEN }}
-        publish_dir: ./SIA  # Specify the root directory or folder where your HTML files are
+        publish_dir: ./docs  # Specify the root directory or folder where your HTML files are
